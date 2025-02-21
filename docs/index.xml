@@ -86,7 +86,7 @@ title: Home&lt;/code>
 &lt;li>高效办公工具&lt;/li>
 &lt;/ul>
 &lt;hr>
-&lt;pre class="mermaid">graph TD
+&lt;pre class="mermaid">graph LR
  A[&amp;#34;学习路线&amp;#34;] ==&amp;gt; B[&amp;#34;机器人&amp;#34;] &amp;amp; C[&amp;#34;PLC&amp;#34;]
  B ==&amp;gt; n2[&amp;#34;硬件&amp;#34;] &amp;amp; n4[&amp;#34;编程调试&amp;#34;]
  C --&amp;gt; n3[&amp;#34;硬件&amp;#34;] &amp;amp; n6[&amp;#34;软件&amp;#34;]
@@ -108,7 +108,6 @@ title: Home&lt;/code>
  n12 --&amp;gt; n29[&amp;#34;系统设置&amp;#34;]
  n13 --&amp;gt; n30[&amp;#34;附加模块&amp;#34;]
  n16 --&amp;gt; n31[&amp;#34;设备组态&amp;#34;] &amp;amp; n32[&amp;#34;编程调试&amp;#34;]
-
  A@{ shape: rounded}
  B@{ shape: rounded}
  C@{ shape: rounded}
