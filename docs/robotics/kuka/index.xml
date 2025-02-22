@@ -1,1 +1,35 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>KUKA on</title><link>/docs/robotics/kuka/</link><description>Recent content in KUKA on</description><generator>Hugo</generator><language>en</language><lastBuildDate>Fri, 21 Feb 2025 08:15:39 +0800</lastBuildDate><atom:link href="/docs/robotics/kuka/index.xml" rel="self" type="application/rss+xml"/><item><title>WorkVisual</title><link>/docs/robotics/kuka/workvisual/</link><pubDate>Fri, 21 Feb 2025 08:15:39 +0800</pubDate><guid>/docs/robotics/kuka/workvisual/</guid><description/></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>KUKA on</title><link>/docs/robotics/kuka/</link><description>Recent content in KUKA on</description><generator>Hugo</generator><language>en</language><lastBuildDate>Sun, 23 Feb 2025 04:55:19 +0800</lastBuildDate><atom:link href="/docs/robotics/kuka/index.xml" rel="self" type="application/rss+xml"/><item><title>KUKA_Software</title><link>/docs/robotics/kuka/kuka_software/</link><pubDate>Sun, 23 Feb 2025 04:55:19 +0800</pubDate><guid>/docs/robotics/kuka/kuka_software/</guid><description>&lt;h1 id="kuka备选软件包">KUKA备选软件包 &lt;a href="#kuka%e5%a4%87%e9%80%89%e8%bd%af%e4%bb%b6%e5%8c%85" class="anchor" aria-hidden="true">&lt;i class="material-icons align-middle">link&lt;/i>&lt;/a>&lt;/h1>&lt;p>对于不同行业的应用，为了方便编程操作及提高效率，KUKA机器人提供了不同的软件选项。&lt;/p>
+&lt;hr>
+&lt;h1 id="专用功能---工艺自动化">专用功能 - 工艺自动化 &lt;a href="#%e4%b8%93%e7%94%a8%e5%8a%9f%e8%83%bd---%e5%b7%a5%e8%89%ba%e8%87%aa%e5%8a%a8%e5%8c%96" class="anchor" aria-hidden="true">&lt;i class="material-icons align-middle">link&lt;/i>&lt;/a>&lt;/h1>&lt;h2 id="一弧焊功能包">一．弧焊功能包 &lt;a href="#%e4%b8%80%e5%bc%a7%e7%84%8a%e5%8a%9f%e8%83%bd%e5%8c%85" class="anchor" aria-hidden="true">&lt;i class="material-icons align-middle">link&lt;/i>&lt;/a>&lt;/h2>&lt;h3 id="1arctech-basic">1．ArcTech Basic &lt;a href="#1arctech-basic" class="anchor" aria-hidden="true">&lt;i class="material-icons align-middle">link&lt;/i>&lt;/a>&lt;/h3>&lt;p>KUKA.ArcTech Basic 是一个用于气体保护焊且可以后载入的备选软件包。用 KUKA.ArcTech Basic 可以配置各制造商的焊接电源。&lt;/p>
+&lt;ul>
+&lt;li>配置焊接电源：
+&lt;ul>
+&lt;li>可以为每个电源配置多达 4 种焊接模式（运行方式）&lt;/li>
+&lt;li>为每种焊接模式定义与电源通讯的参数（信道）&lt;/li>
+&lt;li>定义电源参数的支点&lt;/li>
+&lt;li>将参数分配给流程（引弧、焊接、填满终端焊口）&lt;/li>
+&lt;li>根据标准数据组针对某些焊接任务定义焊接数据组&lt;/li>
+&lt;li>配置与电源和其他设备（例如 PLC）的通讯输入端/输出端&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>对简单焊接任务进行编程&lt;/li>
+&lt;li>配置引弧和焊接故障的故障策略&lt;/li>
+&lt;li>用于焊接大缝隙的机械摆动&lt;/li>
+&lt;li>在 smartHMI 上显示电源的故障信息（并非适用于所有电源）&lt;/li>
+&lt;li>简单示教&lt;/li>
+&lt;li>创建用户特有的摆动图形&lt;/li>
+&lt;/ul>
+&lt;h3 id="2arctech--advanced">2．ArcTech Advanced &lt;a href="#2arctech--advanced" class="anchor" aria-hidden="true">&lt;i class="material-icons align-middle">link&lt;/i>&lt;/a>&lt;/h3>&lt;p>ArcTech Advanced 是一个可后载入的备选软件包，它对备选软件包 ArcTech Basic 的功能进行了如下扩展：&lt;/p>
+&lt;ul>
+&lt;li>配置最多 10 个引燃和焊接故障的故障策略&lt;/li>
+&lt;li>摆动延迟&lt;/li>
+&lt;li>摆动振幅和 8 个可配置通道的轨迹逼近参数&lt;/li>
+&lt;li>迅速接通或关断电弧&lt;/li>
+&lt;li>通过上一级控制装置开通焊缝&lt;/li>
+&lt;li>将焊接速度传递给电源&lt;/li>
+&lt;li>用户特有的功能&lt;/li>
+&lt;li>配置多达 32 种焊接模式&lt;/li>
+&lt;li>Advanced Error Recovery 策略&lt;/li>
+&lt;/ul>
+&lt;h3 id="3seamtech-finding">3．SeamTech Finding &lt;a href="#3seamtech-finding" class="anchor" aria-hidden="true">&lt;i class="material-icons align-middle">link&lt;/i>&lt;/a>&lt;/h3>&lt;p>SeamTech Finding 可以修正原先的轨迹，以便均衡工件的造型和位置偏差。&lt;/p>
+&lt;h3 id="4seamtech-tracking">4．SeamTech Tracking &lt;a href="#4seamtech-tracking" class="anchor" aria-hidden="true">&lt;i class="material-icons align-middle">link&lt;/i>&lt;/a>&lt;/h3>&lt;p>SeamTech Tracking 是一个用于接缝跟踪的程序。它可以配合光切传感器一起，用于大量的应用领域，例如气体保护焊接、激光焊接等。即便在摆动运动中也可以进行接缝跟踪和轨迹的修正,为此刀具的作业方向须为 Z 方向。&lt;/p></description></item><item><title>WorkVisual</title><link>/docs/robotics/kuka/workvisual/</link><pubDate>Fri, 21 Feb 2025 08:15:39 +0800</pubDate><guid>/docs/robotics/kuka/workvisual/</guid><description/></item></channel></rss>
