@@ -32,4 +32,4 @@
 &lt;li>Advanced Error Recovery 策略&lt;/li>
 &lt;/ul>
 &lt;h3 id="3seamtech-finding">3．SeamTech Finding &lt;a href="#3seamtech-finding" class="anchor" aria-hidden="true">&lt;i class="material-icons align-middle">link&lt;/i>&lt;/a>&lt;/h3>&lt;p>SeamTech Finding 可以修正原先的轨迹，以便均衡工件的造型和位置偏差。&lt;/p>
-&lt;h3 id="4seamtech-tracking">4．SeamTech Tracking &lt;a href="#4seamtech-tracking" class="anchor" aria-hidden="true">&lt;i class="material-icons align-middle">link&lt;/i>&lt;/a>&lt;/h3>&lt;p>SeamTech Tracking 是一个用于接缝跟踪的程序。它可以配合光切传感器一起，用于大量的应用领域，例如气体保护焊接、激光焊接等。即便在摆动运动中也可以进行接缝跟踪和轨迹的修正,为此刀具的作业方向须为 Z 方向。&lt;/p></description></item><item><title>WorkVisual</title><link>/docs/robotics/kuka/workvisual/</link><pubDate>Fri, 21 Feb 2025 08:15:39 +0800</pubDate><guid>/docs/robotics/kuka/workvisual/</guid><description/></item></channel></rss>
+&lt;h3 id="4seamtech-tracking">4．SeamTech Tracking &lt;a href="#4seamtech-tracking" class="anchor" aria-hidden="true">&lt;i class="material-icons align-middle">link&lt;/i>&lt;/a>&lt;/h3>&lt;p>SeamTech Tracking 是一个用于接缝跟踪的程序。它可以配合光切传感器一起，用于大量的应用领域，例如气体保护焊接、激光焊接等。即便在摆动运动中也可以进行接缝跟踪和轨迹的修正,为此刀具的作业方向须为 Z 方向。&lt;/p></description></item></channel></rss>
