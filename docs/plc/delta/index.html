@@ -3,7 +3,7 @@
 OverView</a></li><li class=sidebar-dropdown><button class=btn>
 <i class="material-icons me-2">article</i>
 Robotics</button><div class=sidebar-submenu><ul><li class="sidebar-dropdown nested"><button class=btn>
-KUKA</button><div class=sidebar-submenu><ul></ul></div></li><li class="sidebar-dropdown nested"><button class=btn>
+KUKA</button><div class=sidebar-submenu><ul><li><a class=sidebar-nested-link href=/docs/robotics/kuka/workvisual/>WorkVisual</a></li></ul></div></li><li class="sidebar-dropdown nested"><button class=btn>
 ABB</button><div class=sidebar-submenu><ul></ul></div></li><li class="sidebar-dropdown nested"><button class=btn>
 FANUC</button><div class=sidebar-submenu><ul></ul></div></li><li class="sidebar-dropdown nested"><button class=btn>
 Other</button><div class=sidebar-submenu><ul></ul></div></li></ul></div></li><li class="sidebar-dropdown current active"><button class=btn>
@@ -307,6 +307,13 @@ Table of Contents</button><nav id=toc-mobile></nav></div><div class="docs-conten
     
     
     
+    
+    
+    
+    
+    
+    
+    
 
 
     
@@ -379,6 +386,15 @@ Table of Contents</button><nav id=toc-mobile></nav></div><div class="docs-conten
     index.add(
             {
                 id:  7 ,
+                href: "\/docs\/robotics\/kuka\/workvisual\/",
+                title: "WorkVisual",
+                description: "",
+                content: ""
+            }
+        );
+    index.add(
+            {
+                id:  8 ,
                 href: "\/docs\/prog_lib\/standard_lib\/framework_overview\/",
                 title: "Framework Overview",
                 description: "标准框架概述 link 除了 Siemens AF Automation Framework 框架，PLC编程中还有其他几种常见的标准程序框架，它们通常用于提升程序的可维护性、模块化和灵活性。以下是几种常见的框架：\nModular Programming （模块化编程） link这种框架将程序划分为多个功能模块（例如：启动模块、停止模块、计时模块、报警模块等）。每个模块通常代表一个独立的功能或任务，且可以独立测试、修改和替换，增加了程序的可读性和可维护性。\nState Machine（状态机） link状态机框架用于控制具有多个状态的系统。程序根据外部输入变化在不同的状态之间切换，每个状态都执行特定的操作。适合处理复杂的流程控制系统，例如机器人控制、生产线自动化等。\nIEC 61131-3标准 link该标准定义了PLC编程的五种语言：梯形图（Ladder Logic）、功能块图（FBD）、结构化文本（ST）、指令列表（IL）和顺序功能图（SFC）。许多PLC程序框架采用此标准，特别是结构化文本（ST）和功能块图（FBD）常用于复杂的应用。\nFunction Block Diagram （功能块图） link功能块图是一种基于图形的编程方法，程序通过连接不同的功能块来完成任务。每个功能块代表一个独立的控制功能，可以像模块一样嵌入到程序中。对于多轴控制、机器人控制等应用尤其适合。\nStructured Programming （结构化编程） link结构化编程强调通过使用控制结构（如条件判断、循环等）来清晰地表达程序的逻辑。其核心思想是尽量避免使用跳转语句（例如：GOTO），提升代码的可读性和可维护性。\nObject-Oriented Programming （面向对象编程） link尽管在PLC编程中较为少见，但有些PLC编程工具支持面向对象编程。通过定义对象和类的概念，可以将PLC程序中的功能抽象化，提升程序的复用性和可扩展性。\nTemplate-Based Programming （基于模板的编程） link这种方法使用预定义的模板或框架来编写程序，每个模板都有特定的输入输出和执行逻辑，可以快速生成常用功能的程序代码，适用于快速开发和项目的一致性。\nEvent-Driven Programming （事件驱动编程） link在事件驱动编程中，程序的执行是由特定事件触发的。这种方法适用于需要对外部事件（如传感器输入、按钮按下等）作出响应的应用。\n",
@@ -387,7 +403,7 @@ Table of Contents</button><nav id=toc-mobile></nav></div><div class="docs-conten
         );
     index.add(
             {
-                id:  8 ,
+                id:  9 ,
                 href: "\/docs\/robotics\/abb\/",
                 title: "ABB",
                 description: "",
@@ -396,7 +412,7 @@ Table of Contents</button><nav id=toc-mobile></nav></div><div class="docs-conten
         );
     index.add(
             {
-                id:  9 ,
+                id:  10 ,
                 href: "\/docs\/robotics\/fanuc\/",
                 title: "FANUC",
                 description: "",
@@ -405,7 +421,7 @@ Table of Contents</button><nav id=toc-mobile></nav></div><div class="docs-conten
         );
     index.add(
             {
-                id:  10 ,
+                id:  11 ,
                 href: "\/docs\/robotics\/other\/",
                 title: "Other",
                 description: "",
@@ -414,7 +430,7 @@ Table of Contents</button><nav id=toc-mobile></nav></div><div class="docs-conten
         );
     index.add(
             {
-                id:  11 ,
+                id:  12 ,
                 href: "\/docs\/plc\/siemens\/",
                 title: "Siemens",
                 description: "",
@@ -423,7 +439,7 @@ Table of Contents</button><nav id=toc-mobile></nav></div><div class="docs-conten
         );
     index.add(
             {
-                id:  12 ,
+                id:  13 ,
                 href: "\/docs\/plc\/inovance\/",
                 title: "INOVANCE",
                 description: "",
@@ -432,7 +448,7 @@ Table of Contents</button><nav id=toc-mobile></nav></div><div class="docs-conten
         );
     index.add(
             {
-                id:  13 ,
+                id:  14 ,
                 href: "\/docs\/plc\/delta\/",
                 title: "Delta",
                 description: "",
@@ -441,7 +457,7 @@ Table of Contents</button><nav id=toc-mobile></nav></div><div class="docs-conten
         );
     index.add(
             {
-                id:  14 ,
+                id:  15 ,
                 href: "\/docs\/plc\/other\/",
                 title: "Other",
                 description: "",
@@ -450,7 +466,7 @@ Table of Contents</button><nav id=toc-mobile></nav></div><div class="docs-conten
         );
     index.add(
             {
-                id:  15 ,
+                id:  16 ,
                 href: "\/docs\/prog_lib\/standard_lib\/",
                 title: "Standard Framework",
                 description: " 权重：4500\n+++\n",
@@ -459,7 +475,7 @@ Table of Contents</button><nav id=toc-mobile></nav></div><div class="docs-conten
         );
     index.add(
             {
-                id:  16 ,
+                id:  17 ,
                 href: "\/docs\/prog_lib\/fb\/",
                 title: "FB",
                 description: "+++\n",
@@ -468,7 +484,7 @@ Table of Contents</button><nav id=toc-mobile></nav></div><div class="docs-conten
         );
     index.add(
             {
-                id:  17 ,
+                id:  18 ,
                 href: "\/docs\/prog_lib\/fc\/",
                 title: "FC",
                 description: "",
@@ -477,7 +493,7 @@ Table of Contents</button><nav id=toc-mobile></nav></div><div class="docs-conten
         );
     index.add(
             {
-                id:  18 ,
+                id:  19 ,
                 href: "\/docs\/prog_lib\/other\/",
                 title: "Other",
                 description: "",
@@ -486,7 +502,7 @@ Table of Contents</button><nav id=toc-mobile></nav></div><div class="docs-conten
         );
     index.add(
             {
-                id:  19 ,
+                id:  20 ,
                 href: "\/docs\/saftware\/programming\/",
                 title: "Programming",
                 description: "",
@@ -495,7 +511,7 @@ Table of Contents</button><nav id=toc-mobile></nav></div><div class="docs-conten
         );
     index.add(
             {
-                id:  20 ,
+                id:  21 ,
                 href: "\/docs\/saftware\/cam\/",
                 title: "CAM",
                 description: "",
@@ -504,7 +520,7 @@ Table of Contents</button><nav id=toc-mobile></nav></div><div class="docs-conten
         );
     index.add(
             {
-                id:  21 ,
+                id:  22 ,
                 href: "\/docs\/saftware\/tools\/",
                 title: "Tools",
                 description: "",
@@ -513,7 +529,7 @@ Table of Contents</button><nav id=toc-mobile></nav></div><div class="docs-conten
         );
     index.add(
             {
-                id:  22 ,
+                id:  23 ,
                 href: "\/docs\/",
                 title: "Docs",
                 description: "",
